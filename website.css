@@ -1,0 +1,13 @@
+/* Eigene CSS-Regeln */
+body {
+    background-color: #f4f4f4;  /* Helle Hintergrundfarbe */
+    font-family: Arial, sans-serif; /* Schriftart anpassen */
+}
+
+h1 {
+    color: #007bff; /* Blaue Schriftfarbe für die Überschrift */
+}
+
+button {
+    border-radius: 50px; /* Abgerundete Ecken für den Button */
+}
