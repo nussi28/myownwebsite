@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learnhacks by Nussi</title>
+    <title>Willkommen Seite</title>
   <!-- Bootstrap CSS via CDN -->
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
@@ -22,52 +22,70 @@
                 <a class="nav-link active" aria-current="page" href="#">Startseite</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Über mich</a>
+                <a class="nav-link" href="Über mich.html">Über mich</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Learnhacks by Nussi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="learnhacks.html">Learnhacks by Nussi</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+
+      <img src="https://www.edu-tecs.de/images/team/senouci.png" alt="Logo" class="logo" />
+
       <div class="container mt-5">
         <h1 class="text-center mb-4">Willkommen zu meinen Learnhacks!</h1>
+        <div>
+          <img src="images/start_slide1.jpg" class="img-fluid" alt="">
+        </div>
+        
 
         <div class="row">
             <!-- Tipp 1 -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-3 mb-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Tipp 1: Strukturierter Lernplan</h5>
                         <p class="card-text">Erstelle einen klaren Lernplan mit festen Zeiten für das Lernen. So behältst du den Überblick und kannst sicherstellen, dass du genügend Zeit für jedes Thema einplanst.</p>
-                    </div>
+                        <a href="https://www.edu-tecs.de/" class="btn btn-primary">Go somewhere</a>
+                      </div>
                 </div>
             </div>
 
             <!-- Tipp 2 -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-3 mb-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Tipp 2: Pausen einplanen</h5>
                         <p class="card-text">Gönn dir regelmäßige Pausen, um deine Konzentration aufrechtzuerhalten. Kurze Pausen helfen dir, fokussiert zu bleiben und das Gelernte besser zu behalten.</p>
+                        <a href="https://www.edu-tecs.de/" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
 
             <!-- Tipp 3 -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-3 mb-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Tipp 3: Aktives Lernen</h5>
                         <p class="card-text">Statt einfach nur zu lesen, versuche das Gelernte aktiv anzuwenden, indem du Notizen machst, Fragen beantwortest oder mit anderen über das Thema diskutierst.</p>
-                    </div>
+                        <a href="https://www.edu-tecs.de/" class="btn btn-primary">Go somewhere</a>
+                      </div>
                 </div>
             </div>
+             <!-- Tipp 4 -->
+             <div class="col-md-3 mb-4">
+              <div class="card">
+                  <div class="card-body">
+                      <h5 class="card-title">Tipp 4: Aktives Lernen</h5>
+                      <p class="card-text">Statt einfach nur zu lesen, versuche das Gelernte aktiv anzuwenden, indem du Notizen machst, Fragen beantwortest oder mit anderen über das Thema diskutierst.</p>
+                      <a href="https://www.edu-tecs.de/" class="btn btn-primary">Go somewhere</a>
+                    </div>
+              </div>
+          </div>
         </div>
+           
 
         <!-- Weitere Tipps Abschnitt -->
         <div class="mt-5">
@@ -79,5 +97,12 @@
             </ul>
         </div>
     </div>  
+    <div class="weather">
+      <h3>Weather in the city of <span id="city"></span></h3>
+      <div id="icon" class="icon"></div>
+      <p id="description"></p>
+      <p id="temperature"></p>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>

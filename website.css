@@ -1,13 +1,118 @@
 /* Eigene CSS-Regeln */
 body {
-    background-color: #f4f4f4;  /* Helle Hintergrundfarbe */
+    color: #000000;
     font-family: Arial, sans-serif; /* Schriftart anpassen */
 }
 
+
 h1 {
-    color: #007bff; /* Blaue Schriftfarbe für die Überschrift */
+    color: #2a2f35; /* Blaue Schriftfarbe für die Überschrift */
 }
 
 button {
     border-radius: 50px; /* Abgerundete Ecken für den Button */
+}
+
+.hero-container {
+
+  height: 40vh;
+  width: 100%;
+}
+
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;  /* Passe die Größe des Logos an */
+    height: auto;
+}
+
+.hero-section {
+    background: rgba(255, 255, 255, 0.1); /* Leicht transparenter Hintergrund */
+    padding: 60px 0;
+    border-radius: 10px;
+
+  }
+  .blog-section {
+    padding: 60px 0;
+    background: #e9ecef;
+  }
+  .blog-post {
+    margin-bottom: 30px;
+  }
+  .blog-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .blog-excerpt {
+    font-size: 16px;
+    color: #6c757d;
+  }
+  .card-body {
+    padding: 20px;
+  }
+
+  .dataTable{
+    border-collapse:collapse;
+}
+.dataTable,
+.dataTable th,
+.dataTable td {
+    border: 1px solid black;
+}
+
+.dataTable th,
+.dataTable td {
+    padding: 10px 20px;
+}
+
+.dataTable tbody tr:nth-child(odd) {
+    background-color: #aaa;
+}
+
+.dataTable tbody tr:hover {
+    background-color: #666;
+}
+
+.dataTable th {
+    background-color: black;
+    ;
+    color: white;
+}
+label {
+    width: 75px;
+    display:inline-block;
+}
+
+#formThemen label {
+  width: 75px;
+  display: inline-block;
+  text-align: right;
+}
+
+#map { height: 60vh; 
+
+}
+
+
+:root {
+	--size: 400px;
+}
+
+img {
+	width: 100%;
+}
+
+.weather {
+	width: var(--size);
+	height: var(--size);
+	background-color: blue;
+	color: white;
+	padding: 10px 20px;
+}
+
+.icon {
+	display: flex;
+	width: 50px;
 }
