@@ -7,7 +7,7 @@ const icon = document.getElementById("icon");
 
 async function currentWeather() {
 	const response = await fetch(
-		`https://api.openweathermap.org/data/2.5/weather?q=Toronto&units=metric&appid={APIKEY}`
+		`https://api.openweathermap.org/data/2.5/weather?q=Fulda&units=metric&lang=de&appid=d59e78b83c8b838c7bca4bc9d04706f6`
 	);
 	const data = await response.json();
 	// console.log(data);
